@@ -1,7 +1,7 @@
-// Linking Accounts Submit Button // 
+/* Linking Accounts Submit Button */ 
 .auth0-lock.auth0-lock .auth0-lock-submit {
     border: 0;
-    background-color: #000066;
+    background-color: #000066 !important;
     padding: 14px;
     display: inline-block;
     box-sizing: border-box;
@@ -15,4 +15,9 @@
     letter-spacing: 1px;
     font-size: 14px;
     text-transform: uppercase;
+}
+
+/* Changing "Continue" to "Link My Accounts" */
+#label-value {
+    content: "Link My Accounts"
 }
